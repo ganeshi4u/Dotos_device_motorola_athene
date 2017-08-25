@@ -14,23 +14,18 @@
 # limitations under the License.
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/dosp/common.mk)
 
 $(call inherit-product, device/motorola/athene/full_athene.mk)
 
 $(call inherit-product, device/motorola/athene/twrp.mk)
-
-# Boot animation
-TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_BOOTANIMATION_HALF_RES := true
 
 #Magisk
 DEFAULT_ROOT_METHOD := magisk
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := athene
-PRODUCT_NAME := aosp_athene
+PRODUCT_NAME := dosp_athene
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := athene
