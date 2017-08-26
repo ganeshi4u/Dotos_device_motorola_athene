@@ -1,1 +1,1 @@
-add_lunch_combo dosp_athene-userdebug
+add_lunch_combo dot_athene-userdebug
